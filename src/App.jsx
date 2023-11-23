@@ -337,7 +337,7 @@ function App() {
                 hide_description="Custom made"
               >
                 {" "}
-                <img src="/logo4.png" alt="logotype"></img>
+                <img src="/Logo4.png" alt="logotype"></img>
               </FlexWrapperColumn>
             </StyledIllustrationArticle>
           </StyledFlexWrapper>
