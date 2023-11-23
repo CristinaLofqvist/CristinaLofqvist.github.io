@@ -180,7 +180,10 @@ function App() {
               <td>Blog and Webshop</td>
               <td>Backend developed in Node.js with mongoDB</td>
               <td>
-                <a href="https://www.willbur.nu/blog-webshop" target="_blank">
+                <a
+                  href="https://cristinalofqvist.github.io/KauProject/"
+                  target="_blank"
+                >
                   blog-webshop
                 </a>
               </td>
