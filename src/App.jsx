@@ -1,29 +1,29 @@
-import React from "react";
-import { BrowserRouter } from "react-router-dom";
-import { HashLink as Link } from "react-router-hash-link";
-import { Helmet } from "react-helmet";
+import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
+import { Helmet } from 'react-helmet';
 
-import GlobalStyles from "./components/atoms/theme/GlobalStyles.jsx";
-import { StyledHeader } from "./components/atoms/StyledHeader.jsx";
-import { StyledFooter } from "./components/atoms/StyledFooter.jsx";
-import BasePlate from "./components/molecules/BasePlate.jsx";
-import Breadcrumbs from "./components/molecules/Breadcrumb.jsx";
-import { StyledButton } from "./components/atoms/StyledButton.jsx";
-import Navigation from "./components/molecules/NavigationSpan.jsx";
-import FlexStartNavigation from "./components/molecules/FlexStartNavigationSpan.jsx";
-import NoFlexNavigation from "./components/molecules/NoFlexNavigationSpan.jsx";
-import SkillsPlate from "./components/molecules/SkillsPlate.jsx";
-import SkillsAbout from "./components/molecules/SkillsAbout.jsx";
-import PitchDiv from "./components/molecules/PitchDiv.jsx";
-import ExperiDiv from "./components/molecules/ExperiDiv.jsx";
-import ContactDiv from "./components/molecules/ContactDiv.jsx";
-import TableDescriptionDiv from "./components/molecules/TableDescriptionDiv.jsx";
-import TableDiv from "./components/molecules/TableDiv.jsx";
-import { StyledIllustrationPlate } from "./components/atoms/StyledIllustrationPlate.jsx";
-import { StyledIllustrationArticle } from "./components/atoms/StyledIllustrationArticle.jsx";
-import FlexWrapperColumn from "./components/molecules/FlexWrapperColumn.jsx";
-import { StyledFlexWrapper } from "./components/atoms/StyledFlexWrapper.jsx";
-import { StyledMain } from "./components/atoms/StyledMain.jsx";
+import GlobalStyles from './components/atoms/theme/GlobalStyles.jsx';
+import { StyledHeader } from './components/atoms/StyledHeader.jsx';
+import { StyledFooter } from './components/atoms/StyledFooter.jsx';
+import BasePlate from './components/molecules/BasePlate.jsx';
+import Breadcrumbs from './components/molecules/Breadcrumb.jsx';
+import { StyledButton } from './components/atoms/StyledButton.jsx';
+import Navigation from './components/molecules/NavigationSpan.jsx';
+import FlexStartNavigation from './components/molecules/FlexStartNavigationSpan.jsx';
+import NoFlexNavigation from './components/molecules/NoFlexNavigationSpan.jsx';
+import SkillsPlate from './components/molecules/SkillsPlate.jsx';
+import SkillsAbout from './components/molecules/SkillsAbout.jsx';
+import PitchDiv from './components/molecules/PitchDiv.jsx';
+import ExperiDiv from './components/molecules/ExperiDiv.jsx';
+import ContactDiv from './components/molecules/ContactDiv.jsx';
+import TableDescriptionDiv from './components/molecules/TableDescriptionDiv.jsx';
+import TableDiv from './components/molecules/TableDiv.jsx';
+import { StyledIllustrationPlate } from './components/atoms/StyledIllustrationPlate.jsx';
+import { StyledIllustrationArticle } from './components/atoms/StyledIllustrationArticle.jsx';
+import FlexWrapperColumn from './components/molecules/FlexWrapperColumn.jsx';
+import { StyledFlexWrapper } from './components/atoms/StyledFlexWrapper.jsx';
+import { StyledMain } from './components/atoms/StyledMain.jsx';
 
 function App() {
   return (
@@ -46,7 +46,7 @@ function App() {
       </StyledHeader>
       <StyledMain id="main">
         <Breadcrumbs>
-          {" "}
+          {' '}
           <li>
             <Link to="#main">Home</Link>
           </li>
@@ -57,7 +57,7 @@ function App() {
         <Navigation>
           <StyledButton theme="blackleft" className="push_right">
             <Link to="#portfolio-div" smooth>
-              {" "}
+              {' '}
               Portfolio
             </Link>
           </StyledButton>
@@ -66,7 +66,7 @@ function App() {
           <NoFlexNavigation>
             <StyledButton theme="red" className="center">
               <Link to="#education-div" smooth>
-                {" "}
+                {' '}
                 Education
               </Link>
             </StyledButton>
@@ -76,7 +76,7 @@ function App() {
         <FlexStartNavigation>
           <StyledButton theme="blackright" className="push_left">
             <Link to="#illustration-div" smooth>
-              {" "}
+              {' '}
               Illustrations
             </Link>
           </StyledButton>
@@ -98,7 +98,7 @@ function App() {
         </PitchDiv>
         <Breadcrumbs>
           <li>
-            <Link to="#main">Home</Link>{" "}
+            <Link to="#main">Home</Link>{' '}
           </li>
           <li>
             <Link to="#portfolio-div">Portfolio</Link>
@@ -191,7 +191,7 @@ function App() {
           </tbody>
         </TableDiv>
         <Breadcrumbs>
-          {" "}
+          {' '}
           <li>
             <Link to="#main">Home</Link>
           </li>
@@ -218,10 +218,10 @@ function App() {
                 description="info"
                 hide_description="Chamonix, Brevent"
               >
-                {" "}
+                {' '}
                 <img src="/IMG_6634.jpg" alt="portrait"></img>
               </FlexWrapperColumn>
-            </StyledIllustrationArticle>{" "}
+            </StyledIllustrationArticle>{' '}
           </StyledFlexWrapper>
 
           <StyledFlexWrapper className="ilustartionflexwrapper">
@@ -234,13 +234,13 @@ function App() {
                 description="info"
                 hide_description="Contrast mix of exposure and ISO"
               >
-                {" "}
+                {' '}
                 <img
                   src="/IMG_7697.JPG"
                   alt="photo of field and pink sky"
                 ></img>
               </FlexWrapperColumn>
-            </StyledIllustrationArticle>{" "}
+            </StyledIllustrationArticle>{' '}
           </StyledFlexWrapper>
 
           <StyledFlexWrapper className="ilustartionflexwrapper">
@@ -253,7 +253,7 @@ function App() {
                 description="info"
                 hide_description="Character"
               >
-                {" "}
+                {' '}
                 <img src="/Jesaia.png" alt="young boy illustartion"></img>
               </FlexWrapperColumn>
             </StyledIllustrationArticle>
@@ -264,53 +264,18 @@ function App() {
               className="illustrationArticle"
               pushleft={false}
             >
-              <h3>Animal portrait</h3>
-              <FlexWrapperColumn
-                description="info"
-                hide_description="Pose with short shutter speed"
-              >
-                {" "}
-                <img
-                  src="/IMG_8041.JPG"
-                  alt="photo of bird in evening light"
-                ></img>
-              </FlexWrapperColumn>
-            </StyledIllustrationArticle>{" "}
-          </StyledFlexWrapper>
-
-          <StyledFlexWrapper className="ilustartionflexwrapper">
-            <StyledIllustrationArticle
-              className="illustrationArticle"
-              pushleft={true}
-            >
               <h3>Digital illustration</h3>
               <FlexWrapperColumn
                 description="info"
                 hide_description="Illustration of maountain road"
               >
-                {" "}
+                {' '}
                 <img
                   src="/Untitled-3.png"
                   alt="Digital illustration of mountain road"
                 ></img>
               </FlexWrapperColumn>
-            </StyledIllustrationArticle>{" "}
-          </StyledFlexWrapper>
-
-          <StyledFlexWrapper className="ilustartionflexwrapper">
-            <StyledIllustrationArticle
-              className="illustrationArticle"
-              pushleft={false}
-            >
-              <h3>Sketch</h3>
-              <FlexWrapperColumn
-                description="info"
-                hide_description="Human body pencil sketch"
-              >
-                {" "}
-                <img src="/nude.jpeg" alt="pencil sketch of human body"></img>
-              </FlexWrapperColumn>
-            </StyledIllustrationArticle>
+            </StyledIllustrationArticle>{' '}
           </StyledFlexWrapper>
 
           <StyledFlexWrapper className="ilustartionflexwrapper">
@@ -323,10 +288,10 @@ function App() {
                 description="info"
                 hide_description="Depth of sharpness"
               >
-                {" "}
+                {' '}
                 <img src="/flora.JPG" alt="Closeup photo of flower"></img>
               </FlexWrapperColumn>
-            </StyledIllustrationArticle>{" "}
+            </StyledIllustrationArticle>{' '}
           </StyledFlexWrapper>
 
           <StyledFlexWrapper className="ilustartionflexwrapper">
@@ -339,7 +304,7 @@ function App() {
                 description="info"
                 hide_description="Custom made"
               >
-                {" "}
+                {' '}
                 <img src="/Logo4.png" alt="logotype"></img>
               </FlexWrapperColumn>
             </StyledIllustrationArticle>
@@ -355,34 +320,15 @@ function App() {
                 description="info"
                 hide_description="Winter child"
               >
-                {" "}
+                {' '}
                 <img src="/winterChild.png" alt="logotype"></img>
-              </FlexWrapperColumn>
-            </StyledIllustrationArticle>
-          </StyledFlexWrapper>
-
-          <StyledFlexWrapper className="ilustartionflexwrapper">
-            <StyledIllustrationArticle
-              className="illustrationArticle"
-              pushleft={false}
-            >
-              <h3>Cut out images</h3>
-              <FlexWrapperColumn
-                description="info"
-                hide_description="Clipping path"
-              >
-                {" "}
-                <img
-                  src="/frilaggning02.png"
-                  alt="Masked out rainbow toy"
-                ></img>
               </FlexWrapperColumn>
             </StyledIllustrationArticle>
           </StyledFlexWrapper>
         </StyledIllustrationPlate>
         <Breadcrumbs>
           <li>
-            <Link to="#main">Home</Link>{" "}
+            <Link to="#main">Home</Link>{' '}
           </li>
           <li>
             <Link to="#education-div">Courses</Link>
@@ -474,7 +420,7 @@ function App() {
         </TableDiv>
         <Breadcrumbs>
           <li>
-            <Link to="#main">Home</Link>{" "}
+            <Link to="#main">Home</Link>{' '}
           </li>
           <li>
             <Link to="#experi-div">Experience</Link>
