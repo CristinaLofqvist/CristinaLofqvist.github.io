@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.e6c13ad2.css",
-    "main.js": "/static/js/main.2e0186ba.js",
+    "main.js": "/static/js/main.44b0033c.js",
     "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
     "static/media/filip-zrnzevic-QsWG0kjPQRY-large.jpg": "/static/media/filip-zrnzevic-QsWG0kjPQRY-large.0cd0423f0999a5d20866.jpg",
     "index.html": "/index.html",
     "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
-    "main.2e0186ba.js.map": "/static/js/main.2e0186ba.js.map",
+    "main.44b0033c.js.map": "/static/js/main.44b0033c.js.map",
     "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.2e0186ba.js"
+    "static/js/main.44b0033c.js"
   ]
 }
