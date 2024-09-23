@@ -267,7 +267,7 @@ function App() {
               <h3>Digital illustration</h3>
               <FlexWrapperColumn
                 description="info"
-                hide_description="Illustration of maountain road"
+                hide_description="Illustration of mountain road"
               >
                 {' '}
                 <img
